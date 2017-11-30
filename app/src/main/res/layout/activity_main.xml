@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context="dev.uublabs.services.MainActivity">
+
+    <Button
+        android:text="Start Service"
+        android:id="@+id/btn_started_service"
+        android:onClick="startServices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="Stop Service"
+        android:id="@+id/btn_stop_started_service"
+        android:onClick="startServices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="Start Intent Service Task1"
+        android:id="@+id/btn_started_intent_service"
+        android:onClick="startServices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="Start Intent Service Task2"
+        android:id="@+id/btn_started_intent_service_task2"
+        android:onClick="startServices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_bind_service"
+        android:text="Bind To Service"
+        android:onClick="startServices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_bound_service_get_books"
+        android:text="Get Books from service."
+        android:onClick="startServices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_bound_service_add_book"
+        android:text="Add Book to Service."
+        android:onClick="startServices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_unbind_service"
+        android:text="Unbind From Service."
+        android:onClick="startServices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_schedule_service"
+        android:text="Schedule Service"
+        android:onClick="startServices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
